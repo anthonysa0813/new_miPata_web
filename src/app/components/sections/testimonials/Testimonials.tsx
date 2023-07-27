@@ -15,7 +15,7 @@ import { Gabriela } from "next/font/google";
 
 export default function Testimonials() {
   return (
-    <div className="md:px-24 px-4 h-[500px] ">
+    <div className="md:px-24 px-4 h-[500px]  mb-10">
       <div className="flex items-center h-full rounded-lg bg-slate-100 bgvector">
         <Swiper
           effect="cards"
