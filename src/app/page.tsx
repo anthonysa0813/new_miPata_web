@@ -29,13 +29,13 @@ export default function Home() {
         <div className="flex flex-col gap-10">
           <Hero />
           <CharacterSection />
-          <div className=" md:h-[500px] h-[400px] w-full  md:px-24 px-4 my-10">
+          <div className=" md:h-[500px] h-[400px] w-full  md:px-24 px-4">
             <Image
               src={miPata}
               alt="imagen de las aplicaciones"
               height={500}
               width={500}
-              className="object-cover w-full h-full rounded-lg drop-shadow-2xl"
+              className="object-contain w-full h-full rounded-lg md:object-cover drop-shadow-2xl"
               priority={true}
             />
           </div>
