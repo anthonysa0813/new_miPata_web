@@ -1,0 +1,16 @@
+.listTerms {
+  margin-inline: 0;
+  padding: 0;
+  .listItem {
+    counter-increment: termsCounter;
+    margin-block: 1rem;
+    font-weight: bold;
+  }
+}
+
+.listTerms {
+  list-style-type: none;
+  .listItem::before {
+    content: counter(termsCounter) ". ";
+  }
+}
