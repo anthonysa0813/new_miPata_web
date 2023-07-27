@@ -34,6 +34,7 @@ export default function Hero() {
             height={650}
             width={350}
             className="xxl:h-[580px]  drop-shadow-2xl phone"
+            priority={true}
           />
         </div>
       </div>
