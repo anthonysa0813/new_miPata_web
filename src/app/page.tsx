@@ -29,7 +29,7 @@ export default function Home() {
         <div className="flex flex-col gap-10">
           <Hero />
           <CharacterSection />
-          <div className=" md:h-[500px] h-[400px] w-full  md:px-24 px-4">
+          <div className=" md:h-[500px] h-[400px] w-full  md:px-24 px-4 hidden md:block">
             <Image
               src={miPata}
               alt="imagen de las aplicaciones"
