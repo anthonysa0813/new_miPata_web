@@ -44,10 +44,10 @@ export default function Testimonials() {
               </div>
               <h1>Carla</h1>
               <p className="text-gray-400 ">
-                &ldquo;He estado usando esta app durante un tiempo y ha sido un
-                gran recurso para el cuidado de mi gato. He recibido consejos de
-                nutrición y cuidado de mascotas que realmente han mejorado su
-                calidad de vida.&quot;
+                &ldquo;Mi perro se escapó de la casa y gracias a miPata pude
+                avisar a la comunidad inmediatamente. Felizmente alguien lo
+                encontró, escaneó su QR y me llegó toda su información en tiempo
+                real.&quot;
               </p>
             </div>
           </SwiperSlide>
@@ -64,10 +64,10 @@ export default function Testimonials() {
               </div>
               <h1>Gabriel</h1>
               <p className="text-gray-400 ">
-                &ldquo;Mi perro se escapó de la casa y pensé que lo había
-                perdido para siempre. Gracias a miPata, pude publicar su foto y
-                ubicación en tiempo real, y alguien lo encontró y lo devolvió a
-                casa sano y salvo.&quot;
+                &ldquo;He usado miPata por un tiempo y me he divertido y
+                aprendido mucho. He recibido consejos de nutrición y cuidado de
+                mascotas que realmente han mejorado la calidad de vida de mi
+                gata. &quot;
               </p>
             </div>
           </SwiperSlide>
@@ -84,10 +84,10 @@ export default function Testimonials() {
               </div>
               <h1>Luis</h1>
               <p className="text-gray-400 ">
-                &ldquo;Soy voluntario en un refugio de animales y la app ha sido
-                muy útil para encontrar hogares para nuestros perros y gatos.
-                Hemos recibido más solicitudes de adopción y encontrado más
-                hogares para animales necesitados.&quot;
+                &ldquo;Soy voluntario en un refugio de animales y miPata ha sido
+                muy útil para encontrar casa para nuestros perros y gatos. Hemos
+                conseguido adoptantes responsables de varios lugares del país y
+                estamos súper contentos de poder seguir ayudando. &quot;
               </p>
             </div>
           </SwiperSlide>

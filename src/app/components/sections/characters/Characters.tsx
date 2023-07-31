@@ -5,37 +5,37 @@ const dataSection = [
     icon: "location",
     title: "Rastrea a tu mascota",
     content:
-      "It is a long established fact that a reader will be distracted by the readable",
+      "<p>Si perdiste a tu mascota, repórtala en miPata y nuestra comunidad la buscará. Ponle el <b>QR</b> miPata y si alguien la escanea te llegará una notificación de ubicación, hora y fecha. </p>",
   },
   {
     icon: "community",
     title: "Conéctate con otros dueños",
     content:
-      "It is a long established fact that a reader will be distracted by the readable",
+      "<span>Ubica una pareja ideal para tu engreída, encuentra amigos para pasear en el parque y mucho más.</span>",
   },
   {
     icon: "mipata",
     title: "Adopta una mascota",
     content:
-      "It is a long established fact that a reader will be distracted by the readable",
+      "<span>Encuentra a tu mejor amiga, adóptala y dale mucho amor. En miPata podrás encontrar animalitos encontrados en la calle o rescatados, elegirlos y contactar para adoptarlos. ¡También puedes registrar mascotas en la calle para que alguien más las adopte! </span>",
   },
   {
     icon: "stars",
-    title: "Recomendaciones",
+    title: "Lugares Pet-friendly",
     content:
-      "It is a long established fact that a reader will be distracted by the readable",
+      "<span>¡Que nunca más te dejen afuera por ir con tu engreída! Entra al mapa y encuentra toda la información de cafés, restaurantes, hoteles y muchos más lugares pet-friendly en tu ciudad. Encuentra también las veterinarias, petshops, parques y hospedajes más cercanos.  </span>",
   },
   {
     icon: "time",
     title: "Calendario y recordatorios",
     content:
-      "It is a long established fact that a reader will be distracted by the readable",
+      "<span>Registra vacunas, comidas, paseos, medicinas, baños y mucho más. ¡Que nunca se te pase nada sobre el cuidado de tu mascota! </span>",
   },
   {
     icon: "heart",
     title: "Comparte",
     content:
-      "It is a long established fact that a reader will be distracted by the readable",
+      "<span>Comparte fotos, dale me gusta, haz check-in en los lugares recomendados y envía los perfiles de mascotas que pudieran cuidar o adoptar tus amigos o familiares.  </span>",
   },
 ];
 
@@ -45,7 +45,7 @@ export default function CharacterSection() {
       <div className="flex justify-center">
         <div className="w-[600px] ">
           <h1 className="text-center text-4xl text-blue-900 font-semibold">
-            Nuestras mejores características para usted
+            ¿Qué puedo hacer con miPata?
           </h1>
         </div>
       </div>

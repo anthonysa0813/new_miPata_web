@@ -12,7 +12,7 @@ export default function Hero() {
           <h1 className="text-5xl text-orange-600 md:text-4xl lg:text-5xl xl:text-7xl ">
             La comunidad más grande de mascotas y quienes las amamos
           </h1>
-          <div className="flex items-center justify-center gap-2 mt-3 mb-3 md:mb-0 md:justify-start">
+          <div className="flex items-center  gap-2 mt-3 mb-3 md:mb-0 md:justify-start">
             <ButtonSocial
               icon="playstore"
               title="GET IT ON"

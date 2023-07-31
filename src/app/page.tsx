@@ -5,7 +5,7 @@ import Header from "./components/sections/header/Header";
 import Hero from "./components/sections/hero/Hero";
 
 import CharacterSection from "./components/sections/characters/Characters";
-import miPata from "../../public/images/captures2.svg";
+import miPata from "../../public/images/new_frame.svg";
 
 import Testimonials from "./components/sections/testimonials/Testimonials";
 import FooterSection from "./components/sections/footer/Footer";
