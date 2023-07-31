@@ -5,7 +5,7 @@ const dataSection = [
     icon: "location",
     title: "Rastrea a tu mascota",
     content:
-      "<p>Si perdiste a tu mascota, repórtala en miPata y nuestra comunidad la buscará. Ponle el <b>QR</b> miPata y si alguien la escanea te llegará una notificación de ubicación, hora y fecha. </p>",
+      "<p>Si perdiste a tu mascota, repórtala en miPata y nuestra comunidad la buscará. Ponle el <b>QR miPata </b> y si alguien la escanea te llegará una notificación de ubicación, hora y fecha. </p>",
   },
   {
     icon: "community",
