@@ -8,7 +8,7 @@ export default function FooterSection() {
   return (
     <section className="bg-orange-500 text-white md:h-[250px] h-[350px]">
       <div className="md:px-24 px-4 p-10 h-full">
-        <div className="grid md:grid-cols-3 gap-3 h-full">
+        <div className="grid md:grid-cols-2  h-full">
           <div className=" flex items-center justify-center">
             <div className="flex items-center flex-col">
               <i className="icon-mipata text-5xl"></i>
@@ -37,7 +37,7 @@ export default function FooterSection() {
               </div>
             </div>
           </div>
-          <div className=" flex flex-col justify-center items-center md:items-start">
+          <div className=" flex flex-col md:justify-center items-center md:items-start">
             <div className="">
               <Link
                 href="mailto:contacto@mipata.pe"
@@ -58,7 +58,7 @@ export default function FooterSection() {
               </Link>
             </div>
           </div>
-          <div className=" flex justify-center ">
+          {/* <div className=" flex justify-center ">
             <form className="w-4/5 md:w-4/5 lg:w-full">
               <div className="flex justify-center md:justify-start">
                 <h1 className="border-l-2 border-yellow-300 pl-1 text-2xl w-auto">
@@ -74,7 +74,7 @@ export default function FooterSection() {
                 SUBSCRIBIRSE
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
