@@ -16,7 +16,7 @@ export default function Header() {
   }, []);
 
   return (
-    <div className="h-[80px] shadow-lg bg-white lg:px-24 px-4 sticky top-0 z-40 ">
+    <div className="h-[80px] shadow-lg bg-white lg:px-24 px-4 sticky top-0 z-40 dark:bg-zinc-900  ">
       <div className="flex items-center justify-between h-full ">
         <Link href="/" className="">
           <Image src={logo} alt="Logo de miPata" height={50} width={50} />
@@ -29,7 +29,7 @@ export default function Header() {
                 : "https://apps.apple.com/pa/app/mi-pata-mascotas/id1534249237"
             }
             target="_blank"
-            className="flex items-center justify-center h-full text-2xl"
+            className="flex items-center justify-center h-full text-2xl dark:text-sky-600 dark:hover:text-white"
           >
             Descargar App
           </Link>

@@ -5,7 +5,7 @@ const dataSection = [
     icon: "location",
     title: "Rastrea a tu mascota",
     content:
-      "<p>Si perdiste a tu mascota, repórtala en miPata y nuestra comunidad la buscará. Ponle el <b>QR miPata </b> y si alguien la escanea te llegará una notificación de ubicación, hora y fecha. </p>",
+      "<p>Si perdiste a tu mascota, repórtala en miPata y nuestra comunidad la buscará. Ponle el <strong className='qr'>QR miPata </strong> y si alguien la escanea te llegará una notificación de ubicación, hora y fecha. </p>",
   },
   {
     icon: "community",
@@ -41,7 +41,7 @@ const dataSection = [
 
 export default function CharacterSection() {
   return (
-    <div className="md:px-24 px-4 text-center  ">
+    <div className="md:px-24 px-4 text-center dark:bg-zinc-900 ">
       <div className="flex justify-center">
         <div className="w-[600px] ">
           <h1 className="text-center text-4xl text-blue-900 font-semibold">

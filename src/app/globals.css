@@ -101,3 +101,8 @@ body {
     opacity: 1;
   }
 }
+
+.qr {
+  color: red;
+  text-decoration: underline;
+}

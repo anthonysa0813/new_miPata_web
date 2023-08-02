@@ -15,8 +15,8 @@ import { Gabriela } from "next/font/google";
 
 export default function Testimonials() {
   return (
-    <div className="md:px-24 px-4 h-[500px]  mb-10">
-      <div className="flex items-center h-full rounded-lg bg-slate-100 bgvector">
+    <div className="md:px-24 px-4 h-[500px]  mb-10 dark:bg-zinc-900">
+      <div className="flex items-center h-full rounded-lg bg-slate-100 dark:bg-zinc-800 bgvector">
         <Swiper
           effect="cards"
           grabCursor={true}
@@ -30,8 +30,9 @@ export default function Testimonials() {
           }}
           loop={true}
           modules={[EffectCards]}
+          className=""
         >
-          <SwiperSlide>
+          <SwiperSlide className="dark:bg-zinc-900">
             <div className="p-3 text-center ">
               <div className="flex justify-center">
                 <Image
@@ -51,7 +52,7 @@ export default function Testimonials() {
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="dark:bg-zinc-900">
             <div className="p-3 text-center">
               <div className="flex justify-center">
                 <Image
@@ -71,7 +72,7 @@ export default function Testimonials() {
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="dark:bg-zinc-900">
             <div className="p-3 text-center">
               <div className="flex justify-center">
                 <Image
