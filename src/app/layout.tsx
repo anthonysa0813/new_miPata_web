@@ -12,7 +12,7 @@ const nunito = Nunito({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "miPata",
   description:
-    "Aplicación miPata, la nueva comunidad de mascotas y quienes las amamos",
+    "La comunidad más grande de mascotas y quienes las amamos. · Rastrea a tu mascota · lugares pet-Friendly · Conéctate con otros dueños · Calendario y recordatorios ...y más",
   icons: {
     icon: ["/favicon.ico?v=4"],
     apple: ["/apple-icon.png?v=4"],
