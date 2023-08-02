@@ -44,7 +44,7 @@ export default function CharacterSection() {
     <div className="md:px-24 px-4 text-center dark:bg-zinc-900 ">
       <div className="flex justify-center">
         <div className="w-[600px] ">
-          <h1 className="text-center text-4xl text-blue-900 font-semibold">
+          <h1 className="text-center text-4xl text-sky-700 font-semibold">
             ¿Qué puedo hacer con miPata?
           </h1>
         </div>
