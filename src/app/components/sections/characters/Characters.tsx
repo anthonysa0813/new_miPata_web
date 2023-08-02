@@ -42,14 +42,14 @@ const dataSection = [
 export default function CharacterSection() {
   return (
     <div className="md:px-24 px-4 text-center dark:bg-zinc-900 ">
-      <div className="flex justify-center">
+      <div className="flex justify-center my-16">
         <div className="w-[600px] ">
           <h1 className="text-center text-4xl text-sky-700 font-semibold">
             ¿Qué puedo hacer con miPata?
           </h1>
         </div>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-2 my-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-2">
         {dataSection.map((item) => (
           <CardSection {...item} key={item.icon} />
         ))}
