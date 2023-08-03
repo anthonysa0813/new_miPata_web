@@ -41,7 +41,7 @@ const dataSection = [
 
 export default function CharacterSection() {
   return (
-    <div className="md:px-24 px-4 text-center dark:bg-zinc-900 mb-16 ">
+    <div className="md:px-24 px-4 text-center dark:bg-zinc-900 mb-16">
       <div className="flex justify-center mb-10">
         <div className="w-[600px] ">
           <h1 className="text-center text-4xl text-sky-700 font-semibold">
