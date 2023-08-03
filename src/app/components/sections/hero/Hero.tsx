@@ -6,10 +6,10 @@ import { ButtonSocial } from "../../buttons/buttonSocial";
 
 export default function Hero() {
   return (
-    <div className="dark:bg-zinc-900 ">
+    <div className="dark:bg-zinc-900 mb-16">
       <div className="flex flex-col gap-3 px-4 py-8 lg:px-48 md:px-24 md:flex-row md:py-24">
         <div className="flex flex-col justify-center md:w-1/2">
-          <h1 className="text-5xl text-orange-600 md:text-4xl lg:text-5xl xl:text-7xl mt-5">
+          <h1 className="text-5xl text-orange-600 md:text-4xl lg:text-5xl xl:text-7xl">
             La comunidad más grande de mascotas y quienes las amamos
           </h1>
           <div className="flex items-center my-10 gap-2  mb-3 md:mb-0 md:pl-2 md:justify-start">

@@ -26,10 +26,10 @@ export default function Home() {
       {loadingStatus ? (
         <LoadingMiPata />
       ) : (
-        <div className="flex flex-col gap-20 dark:bg-zinc-900">
+        <div className="flex flex-col  dark:bg-zinc-900">
           <Hero />
           <CharacterSection />
-          <div className=" md:h-[500px] h-[400px] w-full  md:px-24 px-4 hidden md:block">
+          <div className=" md:h-[500px] h-[400px] w-full  md:px-24 px-4 hidden md:block mb-16">
             <Image
               src={miPata}
               alt="imagen de las aplicaciones"
